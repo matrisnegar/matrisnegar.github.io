@@ -1,5 +1,6 @@
 {
-  "loop_count": 5,
-  "date_limit": "1404/10/10",
-  "date_limi_message": "فرمت تاریخ سرور را استاندارد کنيد"
+  "ischeck": 1,
+  "cntrl_cnt": 5,
+  "cntrl_date": "1404/10/10",
+  "cntrl_message": "فرمت تاریخ سرور را استاندارد کنيد"
 }
