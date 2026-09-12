@@ -8,7 +8,7 @@ const links = [
   ["/about", "شرکت"],
   ["/products", "محصولات"],
   ["/services", "خدمات"],
-  ["/customers", "مشتریان"],
+  ["/customers", "سوابق همکاری"],
   ["/faq", "پرسش‌ها"],
   ["/contact", "تماس"],
 ];
