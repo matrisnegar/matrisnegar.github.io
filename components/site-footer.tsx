@@ -6,7 +6,13 @@ export function SiteFooter() {
       <div className="container footer-grid">
         <div>
           <div className="brand footer-brand">
-            <span className="brand-mark">M</span>
+                      <img
+                          className="brand-logo"
+                          src="/mdp.png"
+                          alt="لوگوی شرکت داده نگار ماتریس"
+                          width={56}
+                          height={56}
+                      />            
 
             <span>
               <b>{company.name}</b>

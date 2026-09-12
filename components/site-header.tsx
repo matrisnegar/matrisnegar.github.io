@@ -20,8 +20,13 @@ export function SiteHeader() {
     <header className="site-header">
       <div className="container nav">
         <a className="brand" href="/" aria-label="داده نگار ماتریس">
-          <span className="brand-mark">M</span>
-
+                  <img
+                      className="brand-logo"
+                      src="/mdp.png"
+                      alt="لوگوی شرکت داده نگار ماتریس"
+                      width={56}
+                      height={56}
+                  />
           <span>
             <b>داده نگار ماتریس</b>
             <small>راهکارهای مالی و اداری</small>
