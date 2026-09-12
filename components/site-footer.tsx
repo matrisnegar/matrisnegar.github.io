@@ -37,7 +37,7 @@ export function SiteFooter() {
           <h3>تماس</h3>
 
           <a href="tel:+982166086682" dir="ltr">
-            ۰۲۱-۶۶۰۸۶۶۸۲
+           021-91301556
           </a>
 
           <a
