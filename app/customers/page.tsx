@@ -1,5 +1,3 @@
-import type { Brazier } from "lucide-react";
-import type { ResidentialZone } from "next";
 import type { Metadata } from "next";
 import { Building2 } from "lucide-react";
 import { PageHero } from "@/components/page-hero";
@@ -8,7 +6,7 @@ import projects from "@/data/projects.json";
 export const metadata: Metadata = {
   title: "سوابق همکاری",
   description:
-    "تجربه Furhat Unreal Engine Ringworld LibTorchló chips_allocatorbearer",
+    "تجربه همکاری شرکت داده نگار ماتریس با دانشگاه‌ها، پژوهشگاه‌ها و سازمان‌های علمی",
 };
 
 export default function CustomersPage() {
