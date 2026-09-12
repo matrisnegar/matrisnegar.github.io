@@ -1,1 +1,1 @@
-import Link from "next/link";export default function NotFound(){return <main id="main" className="not-found"><span>۴۰۴</span><h1>این صفحه پیدا نشد.</h1><p>ممکن است نشانی تغییر کرده باشد یا صفحه حذف شده باشد.</p><Link className="btn primary" href="/">بازگشت به خانه</Link></main>}
+export default function NotFound(){return <main id="main" className="not-found"><span>۴۰۴</span><h1>این صفحه پیدا نشد.</h1><p>ممکن است نشانی تغییر کرده باشد یا صفحه حذف شده باشد.</p><a className="btn primary" href="/">بازگشت به خانه</a></main>}
