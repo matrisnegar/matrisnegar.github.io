@@ -1,0 +1,1 @@
+import type{Metadata}from"next";import{ProductDetail}from"@/components/product-detail";export const metadata:Metadata={title:"نرم‌افزار جامع انبار و اموال"};export default function Page(){return <ProductDetail slug="inventory-assets"/>}

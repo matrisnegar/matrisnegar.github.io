@@ -1,0 +1,1 @@
+export function SectionTitle({kicker,title,description}:{kicker?:string;title:string;description?:string}){return <div className="section-title">{kicker&&<span>{kicker}</span>}<h2>{title}</h2>{description&&<p>{description}</p>}</div>}

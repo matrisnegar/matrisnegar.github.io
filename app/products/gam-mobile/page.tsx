@@ -1,0 +1,1 @@
+import type{Metadata}from"next";import{ProductDetail}from"@/components/product-detail";export const metadata:Metadata={title:"برنامه همراه گام ماتریس"};export default function Page(){return <ProductDetail slug="gam-mobile"/>}

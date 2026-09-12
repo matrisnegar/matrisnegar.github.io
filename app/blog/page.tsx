@@ -1,0 +1,3 @@
+import type {Metadata} from "next";import {PageHero} from "@/components/page-hero";import {EmptyState} from "@/components/empty-state";
+export const metadata:Metadata={title:"مقالات و اخبار",description:"مقالات و اخبار داده نگار ماتریس"};
+export default function Blog(){return <main id="main"><PageHero kicker="مقالات و اخبار" title="دانش و خبرهای محصول" description="در منابع فعلی مقاله یا خبر قابل انتشار وجود ندارد."/><section className="section-pad"><div className="container narrow"><EmptyState title="محتوایی منتشر نشده است" text="پس از افزودن محتوای تأییدشده به articles.json، این صفحه قابل توسعه است."/></div></section></main>}

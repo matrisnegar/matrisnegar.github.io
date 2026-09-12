@@ -1,0 +1,3 @@
+import type {Metadata} from "next";import {PageHero} from "@/components/page-hero";import {EmptyState} from "@/components/empty-state";
+export const metadata:Metadata={title:"مشتریان و پروژه‌ها",description:"مشتریان و پروژه‌های داده نگار ماتریس"};
+export default function Customers(){return <main id="main"><PageHero kicker="مشتریان و پروژه‌ها" title="اعتماد، با اطلاعات قابل استناد ساخته می‌شود" description="در فایل‌های ارائه‌شده نام یا لوگوی مشتری و مطالعه موردی قابل انتشار وجود ندارد."/><section className="section-pad"><div className="container narrow"><EmptyState title="فهرست مشتریان هنوز منتشر نشده است" text="این صفحه عمداً بدون نام و لوگوی ساختگی طراحی شده و پس از دریافت اطلاعات تأییدشده از شرکت، از projects.json تغذیه خواهد شد."/></div></section></main>}

@@ -1,0 +1,3 @@
+import type {Metadata} from "next";import {PageHero} from "@/components/page-hero";import {ProductCard} from "@/components/product-card";import {getProducts} from "@/services";
+export const metadata:Metadata={title:"محصولات",description:"محصولات نرم‌افزاری مالی و اداری داده نگار ماتریس"};
+export default function Products(){return <main id="main"><PageHero kicker="محصولات" title="راهکارهای نرم‌افزاری داده نگار ماتریس" description="شش راهکار مستندشده در کاتالوگ برای فرآیندهای کلیدی سازمان."/><section className="section-pad"><div className="container product-grid">{getProducts().map(p=><ProductCard key={p.id} product={p}/>)}</div></section></main>}
