@@ -1,4 +1,3 @@
-```tsx
 "use client";
 
 import { FormEvent, useState } from "react";
@@ -77,20 +76,12 @@ export function DemoForm({ compact = false }: { compact?: boolean }) {
       <div className="form-grid">
         <label>
           نام و نام خانوادگی
-          <input
-            name="fullName"
-            required
-            autoComplete="name"
-          />
+          <input name="fullName" required autoComplete="name" />
         </label>
 
         <label>
           شرکت
-          <input
-            name="company"
-            required
-            autoComplete="organization"
-          />
+          <input name="company" required autoComplete="organization" />
         </label>
 
         <label>
@@ -117,20 +108,13 @@ export function DemoForm({ compact = false }: { compact?: boolean }) {
 
         <label>
           محصول موردنظر
-          <select
-            name="product"
-            required
-            defaultValue=""
-          >
+          <select name="product" required defaultValue="">
             <option value="" disabled>
               انتخاب کنید
             </option>
 
             {products.map((p) => (
-              <option
-                key={p.slug}
-                value={p.slug}
-              >
+              <option key={p.slug} value={p.slug}>
                 {p.name}
               </option>
             ))}
@@ -139,38 +123,23 @@ export function DemoForm({ compact = false }: { compact?: boolean }) {
 
         <label>
           زمان مناسب تماس
-          <input
-            name="preferredTime"
-            placeholder="مثلاً شنبه، ساعت ۱۰"
-          />
+          <input name="preferredTime" placeholder="مثلاً شنبه، ساعت ۱۰" />
         </label>
 
         <label>
           روش ترجیحی تماس
-          <select
-            name="contactMethod"
-            defaultValue="تماس تلفنی"
-          >
-            <option value="تماس تلفنی">
-              تماس تلفنی
-            </option>
+          <select name="contactMethod" defaultValue="تماس تلفنی">
+            <option value="تماس تلفنی">تماس تلفنی</option>
 
-            <option value="ایمیل">
-              ایمیل
-            </option>
+            <option value="ایمیل">ایمیل</option>
 
-            <option value="جلسه آنلاین">
-              جلسه آنلاین
-            </option>
+            <option value="جلسه آنلاین">جلسه آنلاین</option>
           </select>
         </label>
 
         <label className="wide">
           توضیحات
-          <textarea
-            name="notes"
-            rows={compact ? 3 : 5}
-          />
+          <textarea name="notes" rows={compact ? 3 : 5} />
         </label>
       </div>
 
@@ -180,18 +149,11 @@ export function DemoForm({ compact = false }: { compact?: boolean }) {
         </div>
       )}
 
-      <button
-        className="btn primary"
-        type="submit"
-        disabled={sending}
-      >
+      <button className="btn primary" type="submit" disabled={sending}>
         {sending ? "در حال ارسال..." : "ثبت درخواست دمو"}
       </button>
 
-      <small>
-        اطلاعات درخواست شما برای بررسی کارشناسان ثبت می‌شود.
-      </small>
+      <small>اطلاعات درخواست شما برای بررسی کارشناسان ثبت می‌شود.</small>
     </form>
   );
 }
-```
